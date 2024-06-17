@@ -1,3 +1,4 @@
+import {nextui} from '@nextui-org/theme';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -5,6 +6,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/(autocomplete|button|ripple|spinner|input|listbox|divider|popover|scroll-shadow).js"
   ],
   theme: {
     extend: {
@@ -15,9 +17,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [require('daisyui'),],
   daisyui: {
     themes: ["light", "dark", "cupcake"],
   },

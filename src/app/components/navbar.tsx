@@ -1,30 +1,56 @@
+import Image from "next/image"
+import Link from "next/link"
+
 const NavbarComponents = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar py-5 md:px-48 max-md:px-8 bg-white">
             <div className="navbar-start">
-                <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Beranda</a></li>
-                        <li><a>Katalog</a></li>
-                        <li><a>Kostum</a></li>
-                        <li><a>Tentang</a></li>
-                    </ul>
-                </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <label htmlFor="my-drawer">
+                    <a className="btn lg:hidden bg-transparent shadow-none border-none hover:border-none rounded-full">
+                        <Image
+                            src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718565964/menu_tvp5y5.png"
+                            alt="menu"
+                            width={25}
+                            height={25}
+                        />
+                    </a>
+                </label>
+                <a className="btn bg-transparent max-lg:hidden shadow-none border-none hover:border-none rounded-full">
+                    <Image
+                        src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718564304/IMG_0003_a39pei.png"
+                        alt="logo"
+                        width={40}
+                        height={40}
+                    />
+                </a>
+            </div>
+            <div className="navbar-center lg:hidden">
+                <a className="btn bg-transparent shadow-none border-none hover:border-none rounded-full">
+                    <Image
+                        src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718564304/IMG_0003_a39pei.png"
+                        alt="logo"
+                        width={40}
+                        height={40}
+                    />
+                </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Beranda</a></li>
-                    <li><a>Katalog</a></li>
-                    <li><a>Kostum</a></li>
-                    <li><a>Tentang</a></li>
+                    <li><Link href="/">Beranda</Link></li>
+                    <li><Link href="/katalog">Katalog</Link></li>
+                    <li><Link href="kostum">Kostum</Link></li>
+                    <li><Link href="tentang">Tentang</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn bg-transparent shadow-none border-none hover:border-none rounded-full">
+                    <Image
+                        src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718565023/search-interface-symbol_bgjquk.png"
+                        alt="search"
+                        width={20}
+                        height={20}
+                    />
+                </a>
             </div>
         </div>
     )
