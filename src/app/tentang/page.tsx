@@ -104,7 +104,7 @@ export default function Tentang() {
       <div className="w-full justify-start px-5 md:px-32 lg:px-48 py-3">
         <h1 className="text-black uppercase font-semibold">Alamat
         </h1>
-        <p>Jln. Sukamandi Mekar No. 17 Lembang - Bandung Barat</p>
+        <p>Sukamandi Mekar No. 17 Lembang - Bandung Barat</p>
       </div>
     </main>
   );

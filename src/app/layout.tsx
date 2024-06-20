@@ -32,7 +32,7 @@ export default function RootLayout({
                 </h1>
                 <p className="text-xs">Kami berfokus pada kepuasan pelanggan dan komitmen terhadap kualitas. Hubungi kami untuk memulai kerjasama yang sukses dan mendapatkan pakaian kustom berkualitas tinggi.</p>
                 </div>
-                <p>Jalan Sukamandi Mekar No. 17 Lembang - Bandung Barat</p>
+                <p>Sukamandi Mekar No. 17 Lembang - Bandung Barat</p>
                 <p>Copyright © 2024 - Sugih Waras</p>
               </aside>
             </footer>
