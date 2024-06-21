@@ -1,5 +1,5 @@
 import CardProduct from "@/app/components/cardproduct";
-import ComboboxComponents from "../components/combobox";
+import ComboboxComponents from "../../../components/combobox";
 
 export default function Katalog() {
 
