@@ -48,7 +48,7 @@ export default function Tentang() {
             />
             <p className="text-black font-bold">Instagram</p>
           </Link>
-          <Link href="https://www.tiktok.com/@sugihwarasshop?_t=8nH6XNMI7BH&_r=1" className="btn rounded-xl bg-white border-black">
+          <Link href="https://www.facebook.com/share/THRwmWEzZBxGdf7s/?mibextid=LQQJ4d" className="btn rounded-xl bg-white border-black">
             <Image 
               src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718874723/facebook_2_oeokwg.png"
               alt="sosial media"
@@ -57,7 +57,7 @@ export default function Tentang() {
             />
             <p className="text-black font-bold">Facebook</p>
           </Link>
-          <Link href="https://www.facebook.com/share/THRwmWEzZBxGdf7s/?mibextid=LQQJ4d" className="btn rounded-xl bg-white border-black">
+          <Link href="https://www.tiktok.com/@sugihwarasshop?_t=8nH6XNMI7BH&_r=1" className="btn rounded-xl bg-white border-black">
             <Image 
               src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718874771/tiktok_tburka.png"
               alt="sosial media"
@@ -98,6 +98,15 @@ export default function Tentang() {
               width={20}
             />
             <p className="text-black font-bold">Lazada</p>
+          </Link>
+          <Link href="https://vt.tokopedia.com/t/ZSYPG4SFW/" className="btn rounded-xl bg-white border-black">
+            <Image 
+              src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718874771/tiktok_tburka.png"
+              alt="sosial media"
+              height={20}
+              width={20}
+            />
+            <p className="text-black font-bold">Tiktok Shop</p>
           </Link>
         </div>
       </div>
