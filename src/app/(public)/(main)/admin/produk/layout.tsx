@@ -5,7 +5,7 @@ const DrawerSide = dynamic(() => import('@/app/components/admin/drawerside'))
 const NavbarComponents = dynamic(() => import('@/app/components/admin/navbar'))
 
 export const metadata: Metadata = {
-    title: "Admin",
+    title: "Admin | Produk",
     description: "-",
 };
 

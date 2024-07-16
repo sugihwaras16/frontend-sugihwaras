@@ -79,7 +79,7 @@ export default function Tentang() {
               height={20}
               width={20}
             />
-            <p className="text-black font-bold">Tokopedia</p>
+            <h1 className="text-black font-bold">Tokopedia</h1>
           </Link>
           <Link href="http://shopee.co.id/sugihwarasshopp" className="btn rounded-xl bg-white border-black">
             <Image 

@@ -19,8 +19,8 @@ const DrawerSide = () => {
                 </li>
                 <li><Link className="py-2 text-xl" href="/">Beranda</Link></li>
                 <li><Link className="py-2 text-xl" href="/katalog">Katalog</Link></li>
-                <li><Link className="py-2 text-xl" href="kostum">Kostum</Link></li>
-                <li><Link className="py-2 text-xl" href="tentang">Tentang</Link></li>
+                <li><Link className="py-2 text-xl" href="/kostum">Kostum</Link></li>
+                <li><Link className="py-2 text-xl" href="/tentang">Tentang</Link></li>
             </ul>
         </div>
     )

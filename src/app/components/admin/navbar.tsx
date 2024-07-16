@@ -34,16 +34,6 @@ const NavbarAdminComponents = () => {
                     />
                 </a>
             </div>
-            <div className="navbar-end">
-                <a className="btn bg-transparent shadow-none border-none hover:border-none rounded-full">
-                    <Image
-                        src="https://res.cloudinary.com/dsqgejrzn/image/upload/v1718565023/search-interface-symbol_bgjquk.png"
-                        alt="search"
-                        width={20}
-                        height={20}
-                    />
-                </a>
-            </div>
         </div>
     )
 }

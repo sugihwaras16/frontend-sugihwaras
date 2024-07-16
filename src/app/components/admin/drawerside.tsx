@@ -1,5 +1,8 @@
+import dynamic from "next/dynamic"
 import Image from "next/image"
 import Link from "next/link"
+
+const ButtonSignOut = dynamic (()=> import ("@/app/components/admin/signoutbutton"))
 
 const DrawerSideAdmin = () => {
     return (
@@ -9,7 +12,7 @@ const DrawerSideAdmin = () => {
                 <li><Link className="py-2 text-xl mt-10" href="/admin/produk">Produk</Link></li>
                 <li><Link className="py-2 text-xl" href="/admin/kategori">Kategori</Link></li>
                 <li><Link className="py-2 text-xl" href="/admin/pengguna">Pengguna</Link></li>
-                <li><Link className="py-2 text-xl" href="">Keluar</Link></li>
+                <ButtonSignOut />
             </ul>
         </div>
     )
